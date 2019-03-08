@@ -5,11 +5,7 @@
 Installation
 ============
 
-The *EMQ X Edge* broker is cross-platform, which could be deployed on Linux, FreeBSD, Mac, Windows and even Raspberry Pi.
-
-.. NOTE::
-
-    Linux, FreeBSD Recommended.
+The *EMQ X Edge* broker V3.1 supports CentOS、Alpine、Raspbian and Docker.
 
 .. _install_download:
 
