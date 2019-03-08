@@ -17,9 +17,9 @@ The main configuration files of the *EMQ X Edge* broker are under 'etc/' folder:
 | etc/plugins/\*.conf  | Config Files of Plugins           |
 +----------------------+-----------------------------------+
 
-NOTE!
--------
-  Please visit [EMQ X Doc](https://developer.emqx.io/docs/emq/v3/en/config.html) for general EMQ X parameters configuration, say environment variables, log level & file, MQTT protocol parameters, MQTT listeners, and etc. Here only EMQ X Edge related parameters list.
+NOTE:
+------
+ Please visit [EMQ X Doc](https://developer.emqx.io/docs/emq/v3/en/config.html) for general EMQ X parameters configuration, say environment variables, log level & file, MQTT protocol parameters, MQTT listeners, and etc. Here only EMQ X Edge related parameters list.
 
 -----------------------
 EMQ X 3.0 Config Syntax
