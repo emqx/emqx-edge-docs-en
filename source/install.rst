@@ -269,9 +269,6 @@ The TCP ports used can be configured in etc/emqx.config:
     ## External MQTT/WebSocket Listener
     listener.ws.external = 8083
 
-    ## HTTP Management API Listener
-    listener.api.mgmt = 127.0.0.1:8080
-
 
 .. _quick_setup:
 
