@@ -40,7 +40,7 @@ Quick Start
 Download and Install
 --------------------
 
-The *EMQ X Edge* is cross-platform, which could be deployed on Raspberry Pi, Linux, FreeBSD, Mac and Windows.
+The *EMQ X Edge* is cross-platform, which could be deployed on Raspberry Pi, Linux and FreeBSD.
 
 Download binary package from: http://emqx.io/downloads.
 
