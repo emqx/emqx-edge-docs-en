@@ -5,7 +5,7 @@
 Installation
 ============
 
-The *EMQ X Edge* broker V3.1 supports CentOS、Alpine、Raspbian and Docker.
+The *EMQ X Edge* broker V3.1 supports CentOS, Alpine, Raspbian, Debian, Ubuntu and Docker.
 
 .. _install_download:
 
@@ -18,13 +18,29 @@ Download binary packages from: https://www.emqx.io/downloads/edge
 The following OS types are supported:
 
 +-------------+
+| CentOS6.8     |
++-------------+
 | CentOS7     |
++-------------+
+| Debian7     |
++-------------+
+| Debian8    |
++-------------+
+| Debian9     |
 +-------------+
 | Alpine3.8   |
 +-------------+
 | Raspbian8   |
 +-------------+
 | Raspbian9   |
++-------------+
+| Ubuntu12.04 |
++-------------+
+| Ubuntu14.04 |
++-------------+
+| Ubuntu16.04 |
++-------------+
+| Ubuntu18.04 |
 +-------------+
 | Docker      |
 +-------------+
@@ -98,6 +114,8 @@ Install via RPM
 Select Linux group from https://www.emqx.io/downloads/edge, and download the RPM packages.
 
 +-------------+
+| CentOS6.8   |
++-------------+
 | CentOS7     |
 +-------------+
 
@@ -143,6 +161,20 @@ Select Linux group from https://www.emqx.io/downloads/edge, and download the DEB
 | Raspbian8   |
 +-------------+
 | Raspbian9   |
++-------------+
+| Debian7     |
++-------------+
+| Debian8     |
++-------------+
+| Debian9     |
++-------------+
+| Ubuntu12.04 |
++-------------+
+| Ubuntu14.04 |
++-------------+
+| Ubuntu16.04 |
++-------------+
+| Ubuntu18.04 |
 +-------------+
 
 Install the package:
