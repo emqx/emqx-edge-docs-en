@@ -47,14 +47,10 @@ The configuration files will be preprocessed and translated to Erlang `app.confi
 
 
 ----------------------
-EMQ X Edge Config Parameters
+Bridge Config Parameters
 ----------------------
 
 EMQ X Edge can bridge to the remote broker, which can be deployed on cloud, such as aws, azure and so on. The following parameters configurations take aws as an example.
-
-is a lightweight MQTT messaging broker, which can be running at resource constrained edge devices. 
-
-It provides local data processing, and cloud synchronization which automatically synchronizes data to the cloud, for example, EMQ X Broker deployed on aws.
 
 Config Bridge to a Remote Broker on aws:
 
