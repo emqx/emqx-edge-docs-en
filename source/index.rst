@@ -13,7 +13,11 @@
 
 *EMQ X Edge* can be running at different kinds of resource constrained edge devices, such as Raspberry Pi, gateway and industrial servers. And as the bridge between the local terminals and the remote broker, EMQ X Edge provides local data processing and cloud synchronization which will automatically synchronize data with cloud service based on network status.
 
-Please visit [emqx.io](http://emqx.io) for more service. Follow us on Twitter: [@emqx](https://twitter.com/emqx)
+Please visit `emqx.io`_ for more service. Follow us on Twitter: `@emqtt`_
+
+.. _emqx.io: https://www.emqx.io
+.. _@emqtt: https://twitter.com/emqtt
+
 
 .. image:: ./_static/images/edge-overview1.png
 
@@ -24,7 +28,7 @@ Please visit [emqx.io](http://emqx.io) for more service. Follow us on Twitter: [
 +---------------+-----------------------------------------+
 | GitHub:       | https://github.com/emqx                |
 +---------------+-----------------------------------------+
-| Twitter:      | @emqx                                  |
+| Twitter:      | @emqtt                                  |
 +---------------+-----------------------------------------+
 | Forum:        | https://groups.google.com/d/forum/emqx |
 +---------------+-----------------------------------------+
