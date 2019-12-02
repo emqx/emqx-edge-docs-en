@@ -52,7 +52,10 @@ Bridge Config Parameters
 
 EMQ X Edge can bridge to the remote broker, which can be deployed on cloud, such as aws, azure and so on. The following parameters configurations take aws as an example.
 
-Config Bridge to a Remote Broker on aws:
+Refer to [bridge between EMQ X nodes](https://docs.emqx.io/tutorial/v3/en/bridge/emqx_to_emqx.html) for detailed bridge tutorial. Config Bridge to a Remote Broker on aws:
+
+> Upgrade Guide: Since v3.2.0, the built-in bridging function of EMQ X Edge has been move to emqx﹣bridge﹣mqtt plug-in, and the bridging related configuration in the original emqx.conf needs to migrated to etc/plugins/emqx﹣bridge﹣mqtt.conf file. 
+And after the configuration, the plug-in needs to be started to apply the configuration.
 
 .. code-block:: properties
 
@@ -114,7 +117,7 @@ Config Bridge to a Remote Broker on aws:
     bridge.aws.subscription.2.qos = 1
 
     ## Start type of the bridg: manual | auto
-    bridge.aws.start_type = manua
+    bridge.aws.start_type = manual
 
     ## Bridge reconnection interval
     bridge.aws.reconnect_interval = 30s
